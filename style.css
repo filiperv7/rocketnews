@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  color: #ffffff;
+
+  display: flex;
+}
+
+main {
+  background-color: #121214;
+
+  padding-right: 14vw;
+}
+
+div.logo img {
+  width: 389px;
+
+  margin: 50px 12px;
+}
+
+h3#title {
+  margin-top: 42px;
+  padding-left: 12px;
+
+  color: #08c05e;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+
+  position: relative;
+
+  width: 160%;
+}
+
+p#subtitle {
+  font-weight: bold;
+  line-height: 28px;
+  padding-left: 12px;
+
+  width: 160%;
+}
+
+p#text {
+  color: #9c9898;
+  width: 120%;
+  padding-left: 12px;
+
+  margin: 10px 0 30px;
+}
+
+form {
+  position: relative;
+  padding-left: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 16px;
+
+  color: #9c9898;
+}
+
+fieldset {
+  border: 0;
+  width: 1000px;
+
+  position: absolute;
+}
+
+input {
+  width: 625px;
+  height: 30px;
+}
+
+button {
+  width: 30px;
+  height: 30px;
+
+  margin-left: -5px;
+  font-size: 12px;
+}
+
+a#preview {
+  position: relative;
+
+  top: 50px;
+  padding-left: 12px;
+}
+
+aside {
+  width: 800px;
+
+  position: static;
+}
+
+aside img {
+  position: relative;
+
+  z-index: -1;
+
+  left: -200px;
+
+  width: 1100px;
+}
