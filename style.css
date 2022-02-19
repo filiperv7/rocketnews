@@ -11,6 +11,11 @@ body {
   color: #ffffff;
 
   display: flex;
+
+  overflow: hidden;
+
+  width: 100vw;
+  height: 100vh;
 }
 
 main {
@@ -69,22 +74,34 @@ label {
 
 fieldset {
   border: 0;
-  width: 1000px;
+  width: 170%;
 
   position: absolute;
+
+  display: flex;
 }
 
 input {
-  width: 625px;
+  width: 90%;
   height: 30px;
+
+  padding: 3px;
 }
 
 button {
-  width: 30px;
+  width: 4.5%;
   height: 30px;
 
   margin-left: -5px;
   font-size: 12px;
+}
+
+button img {
+  width: 30px;
+  height: 30px;
+
+  position: relative;
+  left: -2px;
 }
 
 a#preview {
@@ -95,7 +112,7 @@ a#preview {
 }
 
 aside {
-  width: 800px;
+  width: 60%;
 
   position: static;
 }
